@@ -6,4 +6,4 @@
 ](https://github.com/Interbotix/interbotix_ros_toolboxes/tree/humble/interbotix_perception_toolbox/interbotix_perception_modules)** This module provides image processing and target detection functionality for the Interbotix X-Series robotic arms. Our team plans to refer to the principles of this module for future development.
 
 ![GitHub Logo](https://github.com/CMX-9/Team5-Mobile_Grasping_Robot/blob/main/Images/grasping_1.png)
-![GitHub Logo]([https://github.com/CMX-9/Team5-Mobile_Grasping_Robot/blob/main/Images/grasping_2.png)
+![GitHub Logo](https://github.com/CMX-9/Team5-Mobile_Grasping_Robot/blob/main/Images/grasping_2.png)
