@@ -36,7 +36,7 @@ The software mainly implements six functional modules:
 ## 1. Environment Setup
 - Refer to the documentation provided on the official [leo rover](https://docs.fictionlab.pl/leo-rover) website to understand the assembly process and relevant information about Leo Rover.  
 - Install **ROS 2 Humble** and **[Gazebo](https://gazebosim.org/api/gazebo/6.1/install.html)** on Ubuntu.  
-- Clone the `[leo_simulator-ros2](https://github.com/LeoRover/leo_simulator-ros2)` from the official ROS website.  
+- Clone the [leo_simulator-ros2](https://github.com/LeoRover/leo_simulator-ros2) from the official ROS website.  
 - Create a Python package and source its setup file:  
    ```bash
    ros2 pkg create --build-type ament_python <package_name>
