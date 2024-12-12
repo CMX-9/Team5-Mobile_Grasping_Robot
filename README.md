@@ -109,6 +109,14 @@ By combining **depth camera images** and **depth information**, the understandin
 In the future, we may could employ advanced target detection algorithms (e.g., **YOLOv8**, **Mask R-CNN**) for multi-target real-time detection.  
 Semantic analysis of the environment can help distinguish dynamic and static objects, ensuring detection reliability in complex scenarios.
 
+Additionally, the following aspects need to be considered during the design phase and will be continuously improved during implementation:
+- Design metrics to evaluate the efficiency and robustness of the software system.  
+- Analyze potential risks and corresponding mitigation strategies.  
+- Analyze potential failures (e.g., recognition failures, navigation path interruptions, grasping deviations).  
+- Design corresponding error detection and recovery mechanisms:  
+  - Timeout retry mechanisms.  
+  - Error logging and analysis.  
+
 ---
 
 ## 5. Contact
