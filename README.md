@@ -90,7 +90,7 @@ For detailed information, refer to the [interbotix_perception_modules](https://g
 
 ## 4. Future Prospects
 
-### 1. Navigation
+### Navigation
 To achieve full autonomy for the Leo Rover, we can introduce more advanced navigation technologies, such as semantic navigation, multi-sensor fusion, and reinforcement learning navigation. 
 - **Semantic Navigation**:  
   Combining semantic segmentation techniques to enable the rover to understand different areas of the environment (e.g. roads, obstacles, storage areas) and make smarter path-planning decisions.  
@@ -99,11 +99,11 @@ To achieve full autonomy for the Leo Rover, we can introduce more advanced navig
 - **Reinforcement Learning Navigation**:  
   Applying reinforcement learning to enable the rover to continuously optimize its path planning and obstacle avoidance strategies in unknown or dynamic environments, gradually forming autonomous learning and adaptability.
 
-### 2. Grasping and Placement
+### Grasping and Placement
 We can use **[Gazebo MoveIt](https://github.com/bjsowa/interbotix_ros_arms/tree/master)** to implement robotic arm movement (for detailed content, refer to the official Gazebo MoveIt documentation).  
 In the future, we can explore combining **deep learning** and **real-time vision systems** to optimize grasping paths and reduce the failure rate. Additionally, we can investigate flexible designs and force feedback technologies, enabling the rover to safely and efficiently grasp objects of various shapes and materials.
 
-### 3. Target Detection
+### Target Detection
 We can use **OpenCV** to process images, achieving target detection and assisting in grasping functionality.  
 By combining **depth camera images** and **depth information**, the understanding of a target's position, size, and shape can be improved, achieving precise detection and classification.  
 In the future, we may could employ advanced target detection algorithms (e.g., **YOLOv8**, **Mask R-CNN**) for multi-target real-time detection.  
@@ -122,42 +122,3 @@ For any queries or collaboration opportunities, feel free to reach out to us at 
 
 ## 6. Acknowledgments
 Special thanks to the University of Manchester and the Department of Robotics for providing support and resources for this project.
-
-# 3、核心模块
-## Navigation Module
-Based on leo_navigation tutorials，我们初步设计如下，详细代码还没有完成：
-我们计划利用slam_toolbox构建动态环境的实时地图，以便探索未知领域，同时进行局部定位。并且结合EKF（扩展卡尔曼滤波）融合里程计、IMU和LiDAR数据，提升定位的平滑性与精确性。目标检测算法暂时还没有定，Global Path Planning倾向于使用A*算法，可简单且能高效找到最短路径，Local Path Planning倾向于TEB。核心节点包括/planner_server、/controller_server、/bt_navigator实现路径规划及导航，/slam_toolbox负责实时地图构建（SLAM）和定位，同时还有/velocity_smother速度平滑节点，/explore_node节点用于导航过程中的目标检测及避障等相关功能。通过/odm,/speed_limit,/map，/joint_states等话题通信，实时更新/cmd_vel，/pose等，实现机器人自主导航、避障、动态调整路径、导航中的目标检测等功能。
-计划用到的Navigation相关package及文档：
-odometry相关：[ekf](https://wiki.ros.org/robot_localization),[imu](https://wiki.ros.org/imu_filter_madgwick)  
-mapping相关：
-twist_mux相关：
-amcl相关：
-move_base相关：
-通过编写相关launch，并将其组合起来，可实现简单的Navigation功能。
-
-## Grasping Module
-我们使用Manipulator PincherX150，关于此机械臂相关的necessary software libraries，请按照这个链接下载：
-其中软件包包含了必要的配置和启动文件，可让众多 Interbotix X 系列机械臂与感知管道配合使用。机械臂可以从平整的表面拾取 RealSense 彩色/深度摄像头视场内的任何小型非反射物体，故而使用此机械臂用于实现我们机器人项目中的抓取目标任务。
-详细内容请参考：interbotix_perception_modules ROS package
-
-# 4、未来展望
-1）导航
-为了实现 Leo Rover 的完全自主功能，我们可以通过引入更高级的导航技术，例如语义导航、多传感器融合和强化学习导航等。
-—语义导航：结合语义分割技术，Rover 能够理解环境中的不同区域（如道路、障碍物、存储区域等），从而制定更加智能的路径规划。
--多传感器融合：利用 LiDAR、深度摄像头和 IMU 数据的深度融合，提升定位精度和对复杂动态环境的适应能力。
--强化学习导航：通过强化学习，Rover 可以在未知或动态环境中不断优化其路径规划和避障策略，逐渐形成自主学习和适应能力。
-2）机械臂抓取及放置
-我们可以利用 Gazebo MoveIt 实现机械臂的运动，详细内容请参考Gazebo MoveIt官方文档内容。
-未来，可以探索结合深度学习和实时视觉系统，优化抓取路径，减少抓取失败的概率。探索机械臂的柔性设计和力反馈技术，使 Rover 能够安全高效地抓取多种形状和材质的物体。
-3）目标检测
-我们可以使用 OpenCV 处理图像，以实现目标检测和抓取功能。通过结合 depth camera 图像和深度信息，提升对目标位置、大小和形状的理解，实现精准检测与分类。未来，还可结合使用先进的目标检测算法（如 YOLOv8、Mask R-CNN），实现多目标实时识别，通过环境语义分析还可以区分动态和静态物体，确保在复杂场景中的检测可靠性。
-
-# 5、Contact
-For any queries or collaborations, feel free to contact us at emails below.
-alexander.morley@student.manchester.ac.uk
-michalis.iakovides@student.manchester.ac.uk
-geetik.mamillapalli@postgrad.manchester.ac.uk
-ziyi.cheng@student.manchester.ac.uk
-6、Acknowledgments
-特别感谢曼彻斯特大学和机器人系为本项目提供的支持和资源。
-
