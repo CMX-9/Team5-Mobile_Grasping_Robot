@@ -58,7 +58,7 @@ Based on the **leo_navigation tutorials**, our preliminary design is as follows 
 We plan to use **slam_toolbox** to build real-time maps of dynamic environments for exploring unknown areas while performing local localization. Additionally, we will combine **EKF (Extended Kalman Filter)** to fuse odometry, IMU, and LiDAR data, improving the smoothness and accuracy of localization.  
 The target detection algorithm has not yet been determined. For **Global Path Planning**, we plan to use the **A*** algorithm, which is simple and efficient in finding the shortest path. For **Local Path Planning**, we plan to use **TEB**.  
 
-Core nodes include:
+**Core nodes include:**
 - `/planner_server`, `/controller_server`, and `/bt_navigator` for path planning and navigation.  
 - `/slam_toolbox` for real-time SLAM and localization.  
 - `/velocity_smoother` for smooth velocity control.  
