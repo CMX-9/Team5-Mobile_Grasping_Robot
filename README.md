@@ -36,7 +36,7 @@ Wavefront Exploration - https://github.com/gjcliff/SLAM-Frontier-Exploration
 Based on leo_navigation tutorials，我们初步设计如下，详细代码还没有完成：
 我们计划利用slam_toolbox构建动态环境的实时地图，以便探索未知领域，同时进行局部定位。并且结合EKF（扩展卡尔曼滤波）融合里程计、IMU和LiDAR数据，提升定位的平滑性与精确性。目标检测算法暂时还没有定，Global Path Planning倾向于使用A*算法，可简单且能高效找到最短路径，Local Path Planning倾向于TEB。核心节点包括/planner_server、/controller_server、/bt_navigator实现路径规划及导航，/slam_toolbox负责实时地图构建（SLAM）和定位，同时还有/velocity_smother速度平滑节点，/explore_node节点用于导航过程中的目标检测及避障等相关功能。通过/odm,/speed_limit,/map，/joint_states等话题通信，实时更新/cmd_vel，/pose等，实现机器人自主导航、避障、动态调整路径、导航中的目标检测等功能。
 计划用到的Navigation相关package及文档：
-odometry相关：ekf<https://wiki.ros.org/robot_localization>,imu<https://wiki.ros.org/imu_filter_madgwick>
+odometry相关：[ekf](https://wiki.ros.org/robot_localization),[imu](https://wiki.ros.org/imu_filter_madgwick)
 mapping相关：
 twist_mux相关：
 amcl相关：
