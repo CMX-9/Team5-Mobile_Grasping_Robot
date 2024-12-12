@@ -1,7 +1,7 @@
 # Manchester Uni Robotic Systems Design Project Team5 (AERO62520)
 ## Introduction
-Welcome to the GitHub repository of Manchester Robotics Team5!
-Our team consists of four passionate and responsible members: Mingxiang Chen、Zhen Yang、Yunxue Pan、Yu-chuan Liao.
+Welcome to the GitHub repository of Manchester Robotics Team5!  
+Our team consists of four passionate and responsible members: Mingxiang Chen、Zhen Yang、Yunxue Pan、Yu-chuan Liao.  
 The goal of this project is to **"Develop a robot that can autonomously retrieve colored objects from the environment and place them in matching storage bins located at the starting point."**
 
 ### Hardware Components
