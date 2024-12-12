@@ -26,12 +26,12 @@ The software mainly implements six functional modules:
 ---
 
 ## Table of Contents
-1. Environment Setup  
-2. Core Packages  
-3. Module Analysis  
-4. Future Prospects  
-5. Contact  
-6. Acknowledgments  
+- [1. Environment Setup](#environment-setup)
+- [2. Core Packages](#core-packages)
+- [3. Module Analysis](#module-analysis)
+- [4. Future Prospects](#future-prospects)
+- [5. Contact](#contact)
+- [6. Acknowledgments](#acknowledgments)
 
 ## 1. Environment Setup
 - Refer to the documentation provided on the official [leo rover](https://docs.fictionlab.pl/leo-rover) website to understand the assembly process and relevant information about Leo Rover.  
@@ -53,7 +53,7 @@ Wavefront Exploration - [https://github.com/gjcliff/SLAM-Frontier-Exploration](h
 
 ## 3. Core Modules
 
-### Navigation Module
+#### Navigation Module
 Based on the **leo_navigation tutorials**, our preliminary design is as follows (detailed code is not yet completed):  
 We plan to use **slam_toolbox** to build real-time maps of dynamic environments for exploring unknown areas while performing local localization. Additionally, we will combine **EKF (Extended Kalman Filter)** to fuse odometry, IMU, and LiDAR data, improving the smoothness and accuracy of localization.  
 The target detection algorithm has not yet been determined. For **Global Path Planning**, we plan to use the **A*** algorithm, which is simple and efficient in finding the shortest path. For **Local Path Planning**, we plan to use **TEB**.  
@@ -68,7 +68,7 @@ Core nodes include:
 - Topics such as `/odom`, `/speed_limit`, `/map`, and `/joint_states` will be used to update `/cmd_vel`, `/pose`, etc., in real-time.  
 - This will enable autonomous navigation, obstacle avoidance, dynamic path adjustment, and target detection during navigation.  
 
-#### Navigation-Related Packages and Documentation:
+##### Navigation-Related Packages and Documentation:
 - **Odometry**: [ekf](https://wiki.ros.org/robot_localization), [imu](https://wiki.ros.org/imu_filter_madgwick)  
 - **Mapping**:  [mapping](https://wiki.ros.org/gmapping)
 - **Twist Multiplexer**:  [twist_mux](https://wiki.ros.org/twist_mux)
@@ -79,7 +79,7 @@ By writing relevant launch files and combining them, basic navigation functional
 
 ---
 
-### Grasping Module
+#### Grasping Module
 We use the **[Manipulator PincherX150](https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros2/software_setup.html)**. For necessary software libraries related to this manipulator, please download them from the official documentation:  
 The package contains the necessary configuration and launch files to integrate many Interbotix X-Series robotic arms with [the perception pipeline](https://industrial-training-master.readthedocs.io/en/melodic/_source/session5/Building-a-Perception-Pipeline.html).  
 The manipulator can pick up any small, non-reflective object from a flat surface within the field of view of a **RealSense color/depth camera**, making it ideal for achieving the grasping objectives in our robot project.  
@@ -90,7 +90,7 @@ For detailed information, refer to the [interbotix_perception_modules](https://g
 
 ## 4. Future Prospects
 
-### Navigation
+#### Navigation
 To achieve full autonomy for the Leo Rover, we can introduce more advanced navigation technologies, such as semantic navigation, multi-sensor fusion, and reinforcement learning navigation. 
 - **Semantic Navigation**:  
   Combining semantic segmentation techniques to enable the rover to understand different areas of the environment (e.g. roads, obstacles, storage areas) and make smarter path-planning decisions.  
@@ -99,11 +99,11 @@ To achieve full autonomy for the Leo Rover, we can introduce more advanced navig
 - **Reinforcement Learning Navigation**:  
   Applying reinforcement learning to enable the rover to continuously optimize its path planning and obstacle avoidance strategies in unknown or dynamic environments, gradually forming autonomous learning and adaptability.
 
-### Grasping and Placement
+#### Grasping and Placement
 We can use **[Gazebo MoveIt](https://github.com/bjsowa/interbotix_ros_arms/tree/master)** to implement robotic arm movement (for detailed content, refer to the official Gazebo MoveIt documentation).  
 In the future, we can explore combining **deep learning** and **real-time vision systems** to optimize grasping paths and reduce the failure rate. Additionally, we can investigate flexible designs and force feedback technologies, enabling the rover to safely and efficiently grasp objects of various shapes and materials.
 
-### Target Detection
+#### Target Detection
 We can use **OpenCV** to process images, achieving target detection and assisting in grasping functionality.  
 By combining **depth camera images** and **depth information**, the understanding of a target's position, size, and shape can be improved, achieving precise detection and classification.  
 In the future, we may could employ advanced target detection algorithms (e.g., **YOLOv8**, **Mask R-CNN**) for multi-target real-time detection.  
@@ -113,10 +113,10 @@ Semantic analysis of the environment can help distinguish dynamic and static obj
 
 ## 5. Contact
 For any queries or collaboration opportunities, feel free to reach out to us at the following emails:  
-- alexander.morley@student.manchester.ac.uk  
-- michalis.iakovides@student.manchester.ac.uk  
-- geetik.mamillapalli@postgrad.manchester.ac.uk  
-- ziyi.cheng@student.manchester.ac.uk  
+- [mingxiang.chen@student.manchester.ac.uk](mailto:mingxiang.chen@student.manchester.ac.uk)  
+- [yu-chuan.liao@postgrad.manchester.ac.uk](mailto:yu-chuan.liao@postgrad.manchester.ac.uk)  
+- [yunxue.pan@postgrad.manchester.ac.uk](mailto:yunxue.pan@postgrad.manchester.ac.uk)  
+- [zhen.yang@student.manchester.ac.uk](mailto:zhen.yang@student.manchester.ac.uk)  
 
 ---
 
