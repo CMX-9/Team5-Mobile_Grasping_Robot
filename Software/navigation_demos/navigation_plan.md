@@ -16,12 +16,12 @@ We plan to use `slam_toolbox` to build real-time maps of dynamic environments, e
   - Target detection during navigation
 
 
-We will refer to the following resources（Only a portion is listed here; others will be added later）：
+We will refer to the following resources（Only a portion is listed here; others will be added later）：  
 Wavefront Exploration - https://github.com/gjcliff/SLAM-Frontier-Exploration  
 SLAM-Toolbox - https://github.com/SteveMacenski/slam_toolbox  
 Nav2 - https://index.ros.org/p/nav2_map_server
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "GitHub Logo")
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "GitHub Logo")
+![GitHub Logo](https://github.com/CMX-9/Team5-Mobile_Grasping_Robot/blob/main/Images/navigation_1.png))
+![GitHub Logo](https://github.com/CMX-9/Team5-Mobile_Grasping_Robot/blob/main/Images/navigation_2.png)
 
 
