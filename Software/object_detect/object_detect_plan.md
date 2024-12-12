@@ -7,4 +7,8 @@ Additionally, the following aspects need to be considered during the design phas
 - Design corresponding error detection and recovery mechanisms:
 - Timeout retry mechanisms.
 - Error logging and analysis.
-We plan to preliminarily use the loss functions (Loss Functions) calculated during the training and validation processes of deep learning object detection models. Metrics such as `train/box_loss` (localization loss), `train/obj_loss` (object loss), and `train/cls_loss` (classification loss) will be used as standards to evaluate the results of object detection. 
+We plan to preliminarily use the loss functions (Loss Functions) calculated during the training and validation processes of deep learning object detection models. Metrics such as `train/box_loss` (localization loss), `train/obj_loss` (object loss), and `train/cls_loss` (classification loss) will be used as standards to evaluate the results of object detection.
+
+reference document：https://github.com/topics/object-detection  
+YOLOv8_ROS：https://github.com/fluentrobotics/yolov8_ros
+
