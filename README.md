@@ -86,6 +86,17 @@ The manipulator can pick up any small, non-reflective object from a flat surface
 
 For detailed information, refer to the [interbotix_perception_modules](https://github.com/Interbotix/interbotix_ros_toolboxes/tree/humble/interbotix_perception_toolbox/interbotix_perception_modules) ROS package.
 
+**Core nodes include:**
+- `/px150_control_node`, `/interbotix_robot_manipulation`, `/px150/commands/joint_group`, and `/px150/commands/joint_trajectory` for robotic arm control.  
+- `/px150/joint_states`, `/px150/robot_state_publisher`, and `/px150/robot_description` for robotic arm state management.
+- `/publisher_control_node` ，`/color_object_position`，`/subscriber_control_node`，`flag_publisher_node`，and `flag_subscriber_node` for object detection and control signal. 
+---
+
+### Object Detection Module
+Our object detection module has been enhanced to support color detection using OpenCV and depth data acquisition from the Intel RealSense D435i. To improve measurement accuracy, a smoothing filter has been implemented to stabilize depth readings. After processing, the node publishes the detected object's 3D position to a ROS2 topic, enabling seamless integration of the camera with the robotic manipulator and the LeoRover platform.
+Moving forward, we plan to introduce deep learning models such as CNN or YOLO to enhance detection accuracy, reduce false detections, and improve adaptability to complex environments.
+The camera_pub node can retrive image data from **Intel Realsense Camera D435i** and publish them to ROS2 topic. The topic `/camera/object_position`  is message of type geometry_msgs/msg/PoseStamped. It contains the object’s 3D position and the orientation from camera’s fireld of view. Then the coordinate will be tranform to the view of manipulator to do the next task. The topic `/camera/color_info` is message of type std_msgs/msg/String. This topic contains only the object’s color. It points out the color of objects , helping robot decide which box should the object being put into.
+
 ---
 
 ## 4. Future Prospects
