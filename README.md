@@ -94,7 +94,7 @@ For detailed information, refer to the [interbotix_perception_modules](https://g
 
 ### Object Detection Module
 Our object detection module has been enhanced to support color detection using OpenCV and depth data acquisition from the Intel RealSense D435i. To improve measurement accuracy, a smoothing filter has been implemented to stabilize depth readings. After processing, the node publishes the detected object's 3D position to a ROS2 topic, enabling seamless integration of the camera with the robotic manipulator and the LeoRover platform.
-Moving forward, we plan to introduce deep learning models such as CNN or YOLO to enhance detection accuracy, reduce false detections, and improve adaptability to complex environments.
+Moving forward, we plan to introduce deep learning models such as CNN or YOLO to enhance detection accuracy, reduce false detections, and improve adaptability to complex environments.  
 The camera_pub node can retrive image data from **Intel Realsense Camera D435i** and publish them to ROS2 topic. The topic `/camera/object_position`  is message of type geometry_msgs/msg/PoseStamped. It contains the object’s 3D position and the orientation from camera’s fireld of view. Then the coordinate will be tranform to the view of manipulator to do the next task. The topic `/camera/color_info` is message of type std_msgs/msg/String. This topic contains only the object’s color. It points out the color of objects , helping robot decide which box should the object being put into.
 
 ---
