@@ -1,0 +1,424 @@
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance:
+  - 0.0001
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.001
+---
+header:
+  stamp:
+    sec: 1676474980
+    nanosec: 342996210
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: -0.002610709285363555
+      y: -0.0008166076731868088
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.04828061908483505
+      w: 0.9988338351249695
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance:
+  - 0.0001
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.001
+---
+header:
+  stamp:
+    sec: 1676474980
+    nanosec: 392996210
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: -0.002610709285363555
+      y: -0.0008166076731868088
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.04828061908483505
+      w: 0.9988338351249695
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance:
+  - 0.0001
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.001
+
+
+
+mscrobotics2425laptop33@e-10lux4295w1y:~/fei/desktop/assessments/design-project/last-3/src/navigation_demos/config$ ros2 node info /ekf_filter_node
+/ekf_filter_node
+  Subscribers:
+    /imu/data_corrected: sensor_msgs/msg/Imu
+    /odom/corrected: nav_msgs/msg/Odometry
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /set_pose: geometry_msgs/msg/PoseWithCovarianceStamped
+  Publishers:
+    /diagnostics: diagnostic_msgs/msg/DiagnosticArray
+    /odometry/filtered: nav_msgs/msg/Odometry
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+    /tf: tf2_msgs/msg/TFMessage
+  Service Servers:
+    /ekf_filter_node/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /ekf_filter_node/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /ekf_filter_node/get_parameters: rcl_interfaces/srv/GetParameters
+    /ekf_filter_node/list_parameters: rcl_interfaces/srv/ListParameters
+    /ekf_filter_node/set_parameters: rcl_interfaces/srv/SetParameters
+    /ekf_filter_node/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+    /enable: std_srvs/srv/Empty
+    /set_pose: robot_localization/srv/SetPose
+    /toggle: robot_localization/srv/ToggleFilterProcessing
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+
+
+
+.ros/log/2025-03-13-15-42-11-931529-e-10lux4295w1y-89677
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ruby $(which ign) gazebo-1]: process started with pid [89678]
+[INFO] [create-2]: process started with pid [89680]
+[INFO] [create-3]: process started with pid [89683]
+[INFO] [robot_state_publisher-4]: process started with pid [89686]
+[INFO] [parameter_bridge-5]: process started with pid [89688]
+[INFO] [joint_state_publisher_gui-6]: process started with pid [89690]
+[INFO] [rviz2-7]: process started with pid [89692]
+[INFO] [async_slam_toolbox_node-8]: process started with pid [89694]
+[INFO] [bt_navigator-9]: process started with pid [89696]
+[INFO] [behavior_server-10]: process started with pid [89698]
+[INFO] [planner_server-11]: process started with pid [89700]
+[INFO] [controller_server-12]: process started with pid [89702]
+[INFO] [lifecycle_manager-13]: process started with pid [89704]
+[rviz2-7] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[async_slam_toolbox_node-8] [INFO] [1741880532.427692391] [slam_toolbox]: Node using stack size 40000000
+[planner_server-11] [INFO] [1741880532.440873448] [planner_server]: 
+[planner_server-11] 	planner_server lifecycle node launched. 
+[planner_server-11] 	Waiting on external lifecycle transitions to activate
+[planner_server-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[create-3] [INFO] [1741880532.460077880] [ros_gz_sim]: Requesting list of world names.
+[planner_server-11] [INFO] [1741880532.461112391] [planner_server]: Creating
+[lifecycle_manager-13] [INFO] [1741880532.464015327] [lifecycle_manager_navigation]: Creating
+[bt_navigator-9] [INFO] [1741880532.468964466] [bt_navigator]: 
+[bt_navigator-9] 	bt_navigator lifecycle node launched. 
+[bt_navigator-9] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-9] [INFO] [1741880532.469166741] [bt_navigator]: Creating
+[behavior_server-10] [INFO] [1741880532.475371064] [behaviour_server]: 
+[behavior_server-10] 	behaviour_server lifecycle node launched. 
+[behavior_server-10] 	Waiting on external lifecycle transitions to activate
+[behavior_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-13] [INFO] [1741880532.481668817] [lifecycle_manager_navigation]: Creating and initializing lifecycle service clients
+[robot_state_publisher-4] [INFO] [1741880532.485874305] [robot_state_publisher]: got segment antenna_link
+[robot_state_publisher-4] [INFO] [1741880532.486061606] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-4] [INFO] [1741880532.486076672] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1741880532.486082532] [robot_state_publisher]: got segment camera_frame
+[robot_state_publisher-4] [INFO] [1741880532.486087890] [robot_state_publisher]: got segment camera_optical_frame
+[robot_state_publisher-4] [INFO] [1741880532.486093550] [robot_state_publisher]: got segment imu_frame
+[robot_state_publisher-4] [INFO] [1741880532.486098591] [robot_state_publisher]: got segment laser_frame
+[robot_state_publisher-4] [INFO] [1741880532.486103757] [robot_state_publisher]: got segment rocker_L_link
+[robot_state_publisher-4] [INFO] [1741880532.486109507] [robot_state_publisher]: got segment rocker_R_link
+[robot_state_publisher-4] [INFO] [1741880532.486114887] [robot_state_publisher]: got segment rplidar_link
+[robot_state_publisher-4] [INFO] [1741880532.486119929] [robot_state_publisher]: got segment wheel_FL_link
+[robot_state_publisher-4] [INFO] [1741880532.486124767] [robot_state_publisher]: got segment wheel_FR_link
+[robot_state_publisher-4] [INFO] [1741880532.486130568] [robot_state_publisher]: got segment wheel_RL_link
+[robot_state_publisher-4] [INFO] [1741880532.486135449] [robot_state_publisher]: got segment wheel_RR_link
+[create-2] [INFO] [1741880532.488622358] [ros_gz_sim]: Requesting list of world names.
+[controller_server-12] [INFO] [1741880532.492734443] [controller_server]: 
+[controller_server-12] 	controller_server lifecycle node launched. 
+[controller_server-12] 	Waiting on external lifecycle transitions to activate
+[controller_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-12] [INFO] [1741880532.523403866] [controller_server]: Creating controller server
+[planner_server-11] [INFO] [1741880532.524732570] [global_costmap.global_costmap]: 
+[planner_server-11] 	global_costmap lifecycle node launched. 
+[planner_server-11] 	Waiting on external lifecycle transitions to activate
+[planner_server-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-11] [INFO] [1741880532.526625620] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-13] [INFO] [1741880532.537268978] [lifecycle_manager_navigation]: Starting managed nodes bringup...
+[lifecycle_manager-13] [INFO] [1741880532.537667078] [lifecycle_manager_navigation]: Configuring controller_server
+[async_slam_toolbox_node-8] [INFO] [1741880532.542399243] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-8] [INFO] [1741880532.542764294] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[controller_server-12] [INFO] [1741880532.557569785] [local_costmap.local_costmap]: 
+[controller_server-12] 	local_costmap lifecycle node launched. 
+[controller_server-12] 	Waiting on external lifecycle transitions to activate
+[controller_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-12] [INFO] [1741880532.560307681] [local_costmap.local_costmap]: Creating Costmap
+[parameter_bridge-5] [INFO] [1741880532.561312960] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-5] [INFO] [1741880532.562509751] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/leo_sim/cmd_vel (ignition.msgs.Twist) -> /model/leo_sim/cmd_vel (geometry_msgs/msg/Twist)] (Lazy 0)
+[controller_server-12] [INFO] [1741880532.563003011] [controller_server]: Configuring controller interface
+[controller_server-12] [INFO] [1741880532.563166667] [controller_server]: getting goal checker plugins..
+[controller_server-12] [INFO] [1741880532.563279628] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-12] [INFO] [1741880532.563333521] [local_costmap.local_costmap]: Configuring
+[parameter_bridge-5] [INFO] [1741880532.564604637] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/model/leo_sim/cmd_vel (geometry_msgs/msg/Twist) -> /model/leo_sim/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-5] [INFO] [1741880532.565719646] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/leo_sim/odometry (ignition.msgs.Odometry) -> /model/leo_sim/odometry (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-5] [INFO] [1741880532.568151322] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/leo_sim/scan (ignition.msgs.LaserScan) -> /model/leo_sim/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-5] [INFO] [1741880532.569861151] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/leo_sim/tf (ignition.msgs.Pose_V) -> /model/leo_sim/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[controller_server-12] [INFO] [1741880532.571627664] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[parameter_bridge-5] [INFO] [1741880532.571815983] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/leo_sim/imu (ignition.msgs.IMU) -> /model/leo_sim/imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-5] [INFO] [1741880532.572999923] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/leo_sim/camera/image_raw (ignition.msgs.Image) -> /model/leo_sim/camera/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-5] [INFO] [1741880532.575024300] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/empty/model/leo_sim/joint_state (ignition.msgs.Model) -> /world/empty/model/leo_sim/joint_state (sensor_msgs/msg/JointState)] (Lazy 0)
+[controller_server-12] [INFO] [1741880532.577597668] [local_costmap.local_costmap]: Subscribed to Topics: scan_source
+[controller_server-12] [INFO] [1741880532.582472483] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-12] [INFO] [1741880532.582542958] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-12] [INFO] [1741880532.583295545] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-12] [INFO] [1741880532.595527484] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-12] [INFO] [1741880532.596692702] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-12] [INFO] [1741880532.597261127] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-12] [INFO] [1741880532.602428353] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-12] [INFO] [1741880532.604295091] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-12] [INFO] [1741880532.619132941] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-12] [INFO] [1741880532.619535207] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.619617611] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-12] [INFO] [1741880532.619789345] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.619849945] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-12] [INFO] [1741880532.619930902] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.619988772] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-12] [INFO] [1741880532.620180138] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.620244552] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-12] [INFO] [1741880532.621423571] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.621952932] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-12] [INFO] [1741880532.622774702] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.622991732] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-12] [INFO] [1741880532.624128792] [controller_server]: Critic plugin initialized
+[controller_server-12] [INFO] [1741880532.624189545] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-13] [INFO] [1741880532.635136539] [lifecycle_manager_navigation]: Configuring planner_server
+[planner_server-11] [INFO] [1741880532.635386662] [planner_server]: Configuring
+[planner_server-11] [INFO] [1741880532.635417601] [global_costmap.global_costmap]: Configuring
+[planner_server-11] [INFO] [1741880532.643472959] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-11] [INFO] [1741880532.647500016] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-11] [INFO] [1741880532.649305480] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-11] [INFO] [1741880532.649352621] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-11] [INFO] [1741880532.650016067] [global_costmap.global_costmap]: Subscribed to Topics: scan_source
+[planner_server-11] [INFO] [1741880532.655015639] [global_costmap.global_costmap
